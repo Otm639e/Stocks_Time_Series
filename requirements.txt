@@ -2,7 +2,6 @@
 numpy==1.23.0
 pandas==2.0.3
 py @ file:///tmp/build/80754af9/py_1607971587848/work
-regex @ file:///opt/concourse/worker/volumes/live/e81f6b8c-e3b5-481b-6b5d-4fa8d9bb9405/volume/regex_1617569701251/work
 scikit-learn @ file:///opt/concourse/worker/volumes/live/0c77b068-a026-4996-6842-33e5544ec13b/volume/scikit-learn_1614446667823/work
 scipy==1.10.1
 seaborn @ file:///tmp/build/80754af9/seaborn_1608578541026/work
