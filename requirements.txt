@@ -182,7 +182,6 @@ taipy-templates==2.4.0
 tenacity==8.0.1
 terminado==0.9.4
 text-unidecode==1.3
-threadpoolctl @ file:///tmp/tmp9twdgx9k/threadpoolctl-2.1.0-py3-none-any.whl
 tifffile==2020.10.1
 tinycss2==1.2.1
 traitlets==5.9.0
