@@ -244,4 +244,4 @@ def on_change(state, var_name, var_value):
     return
     
 
-Gui(page).run(dark_mode=True, port=5000) 
+Gui(page).run(dark_mode=True) 
