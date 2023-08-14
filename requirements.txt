@@ -1,8 +1,6 @@
-alabaster @ file:///home/ktietz/src/ci/alabaster_1611921544520/work
 alembic==1.11.2
 anaconda-client==1.7.2
 anaconda-navigator==2.0.3
-anaconda-project @ file:///tmp/build/80754af9/anaconda-project_1610472525955/work
 aniso8601==9.0.1
 anyio @ file:///opt/concourse/worker/volumes/live/64740ac7-3a9c-4fbb-6685-a51c4ff8b4ca/volume/anyio_1617783319350/work/dist
 apispec==5.2.2
