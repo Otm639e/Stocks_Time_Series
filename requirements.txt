@@ -1,13 +1,9 @@
 
 numpy==1.23.0
 pandas==2.0.3
-py @ file:///tmp/build/80754af9/py_1607971587848/work
-scikit-learn @ file:///opt/concourse/worker/volumes/live/0c77b068-a026-4996-6842-33e5544ec13b/volume/scikit-learn_1614446667823/work
 scipy==1.10.1
-seaborn @ file:///tmp/build/80754af9/seaborn_1608578541026/work
 sklearn==0.0
 statsmodels==0.14.0
-sympy @ file:///opt/concourse/worker/volumes/live/0bf7d347-8399-4af8-5e6f-4267d4aabdd9/volume/sympy_1618255318469/work
 taipy==2.4.0
 taipy-config==2.4.0
 taipy-core==2.4.0
@@ -15,5 +11,4 @@ taipy-gui==2.4.0
 taipy-rest==2.4.0
 taipy-templates==2.4.0
 yahoo-fin==0.8.9.1
-yapf @ file:///tmp/build/80754af9/yapf_1615749224965/work
 yfinance==0.2.27
