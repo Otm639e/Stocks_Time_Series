@@ -1,0 +1,22 @@
+{
+"id": "TASK_forecast_baseline_0d9390bf-39d0-46d3-92a1-0e48b9118334",
+"owner_id": null,
+"parent_ids": [
+"PIPELINE_baseline_fd0b5de0-8ca4-4d94-99bb-58ed1f6fe837"
+],
+"config_id": "forecast_baseline",
+"input_ids": [
+"DATANODE_ticker_43da2698-edb4-4c5f-87ad-a1b005a5a99e",
+"DATANODE_ar_lag_a6d6fb9c-e1cc-4b74-94be-a95ce384131f",
+"DATANODE_ma_lag_15f0a9fb-5bcf-4285-9661-9a25da8b32fa",
+"DATANODE_diff_param_4f3374aa-da25-4da5-a4b0-69dfcfa35ddf"
+],
+"function_name": "get_rolling_forecasts",
+"function_module": "__main__",
+"output_ids": [
+"DATANODE_forecasts_ca5192f2-54bb-4e75-a792-2aa9dd745889"
+],
+"version": "8aac0d40-f45c-4eed-b45f-6e9122ca84a6",
+"skippable": false,
+"properties": {}
+}

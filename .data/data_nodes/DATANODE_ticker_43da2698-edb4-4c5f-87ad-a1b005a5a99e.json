@@ -1,0 +1,27 @@
+{
+"id": "DATANODE_ticker_43da2698-edb4-4c5f-87ad-a1b005a5a99e",
+"config_id": "ticker",
+"scope": "<Scope.GLOBAL: 4>",
+"storage_type": "pickle",
+"name": null,
+"owner_id": null,
+"parent_ids": [
+"TASK_forecast_baseline_0d9390bf-39d0-46d3-92a1-0e48b9118334"
+],
+"last_edit_date": "2023-08-12T13:10:47.386613",
+"edits": [
+{
+"timestamp": {
+"__type__": "Datetime",
+"__value__": "2023-08-12T13:10:47.386613"
+}
+}
+],
+"version": "8aac0d40-f45c-4eed-b45f-6e9122ca84a6",
+"validity_days": null,
+"validity_seconds": null,
+"edit_in_progress": false,
+"data_node_properties": {
+"is_generated": true
+}
+}

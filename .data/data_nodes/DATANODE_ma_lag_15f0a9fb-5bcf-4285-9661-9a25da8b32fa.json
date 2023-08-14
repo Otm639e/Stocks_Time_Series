@@ -1,0 +1,27 @@
+{
+"id": "DATANODE_ma_lag_15f0a9fb-5bcf-4285-9661-9a25da8b32fa",
+"config_id": "ma_lag",
+"scope": "<Scope.GLOBAL: 4>",
+"storage_type": "pickle",
+"name": null,
+"owner_id": null,
+"parent_ids": [
+"TASK_forecast_baseline_0d9390bf-39d0-46d3-92a1-0e48b9118334"
+],
+"last_edit_date": "2023-08-12T13:10:47.409237",
+"edits": [
+{
+"timestamp": {
+"__type__": "Datetime",
+"__value__": "2023-08-12T13:10:47.409237"
+}
+}
+],
+"version": "8aac0d40-f45c-4eed-b45f-6e9122ca84a6",
+"validity_days": null,
+"validity_seconds": null,
+"edit_in_progress": false,
+"data_node_properties": {
+"is_generated": true
+}
+}
