@@ -7,6 +7,7 @@ from statsmodels.tsa.stattools import adfuller
 from statsmodels.tsa.stattools import acf, pacf
 from statsmodels.tsa.arima.model import ARIMA
 from taipy import Config, Scope, Gui
+import os
 from collections import Counter
 # from statsmodels.tools.sm_exceptions import ValueWarning, HessianInversionWarning, ConvergenceWarning
 import warnings
@@ -243,5 +244,11 @@ def on_change(state, var_name, var_value):
         print("Updated Param")
     return
     
-
-Gui(page).run(dark_mode=True) 
+rest = tp.Rest()
+gui = tp.Gui(page)
+tp.run(
+    title="Stock Forecasting",
+    host='0.0.0.0',
+    port=os.environ.get('PORT', '5000'),
+    dark_mode=True,
+    ) 
