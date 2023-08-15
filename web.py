@@ -247,6 +247,8 @@ def on_change(state, var_name, var_value):
 rest = tp.Rest()
 gui = tp.Gui(page)
 tp.run(
+    rest,
+    gui,
     title="Stock Forecasting",
     host='0.0.0.0',
     port=os.environ.get('PORT', '5000'),
