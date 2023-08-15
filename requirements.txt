@@ -4,6 +4,7 @@ plotly
 scikit-image
 scipy
 sklearn
+statsmodels
 taipy
 taipy-config
 taipy-core
