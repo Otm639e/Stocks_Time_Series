@@ -3,7 +3,7 @@ pandas
 plotly
 scikit-image
 scipy
-sklearn
+scikit-learn
 statsmodels
 taipy
 taipy-config
