@@ -194,24 +194,23 @@ sp_assets = pd.read_html('https://en.wikipedia.org/wiki/List_of_S%26P_500_compan
 assets = sp_assets['Symbol'].str.replace('.','-').tolist()
 assets_sel = assets[0] 
 
-stocks_lags = best_fitted_stocks(assets)
-k = Counter(stocks_lags)
-# Finding 3 highest values
-high = k.most_common(3)
-first_best_ticker = high[0][0]
-second_best_ticker = high[1][0]
-third_best_ticker = high[2][0]
+# stocks_lags = best_fitted_stocks(assets)
+# k = Counter(stocks_lags)
+# # Finding 3 highest values
+# high = k.most_common(3)
+# first_best_ticker = high[0][0]
+# second_best_ticker = high[1][0]
+# third_best_ticker = high[2][0]
 
 diff_param = adf_test(assets_sel)
 max_ma_lag = max(significant_ma_lags(assets_sel))
 max_ar_lag = max(significant_ar_lags(assets_sel))
 rolling_forcast_data = pd.DataFrame(columns=['Date','Close','Forcasts'])
 
+# ##### Stocks with highest ACF & PACF Significance Values 
+# <|{first_best_ticker}|button|on_action=update_ticker1|> <|{second_best_ticker}|button|on_action=update_ticker2|> <|{third_best_ticker}|button|on_action=update_ticker3|>
 page='''
 # Stock *Forecasting* (ARIMA Model)
-
-##### Stocks with highest ACF & PACF Significance Values 
-<|{first_best_ticker}|button|on_action=update_ticker1|> <|{second_best_ticker}|button|on_action=update_ticker2|> <|{third_best_ticker}|button|on_action=update_ticker3|>
 
 <|{assets_sel}|selector|lov={assets}|dropdown|>
 <|{get_stock_data(assets_sel)}|table|width={"100%"}|height={"50vh"}|>
