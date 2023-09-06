@@ -1,5 +1,5 @@
 {
 "id": "8aac0d40-f45c-4eed-b45f-6e9122ca84a6",
 "config": "{\n\"TAIPY\": {\n\"root_folder\": \"./taipy/\",\n\"storage_folder\": \".data/\",\n\"clean_entities_enabled\": \"ENV[TAIPY_CLEAN_ENTITIES_ENABLED]\",\n\"repository_type\": \"filesystem\",\n\"read_entity_retry\": \"3:int\"\n},\n\"gui\": {},\n\"JOB\": {\n\"mode\": \"development\",\n\"max_nb_of_workers\": \"1:int\"\n},\n\"CORE\": {\n\"mode\": \"development\",\n\"version_number\": \"\",\n\"force\": \"False:bool\",\n\"clean_entities\": \"False:bool\"\n},\n\"DATA_NODE\": {\n\"default\": {\n\"storage_type\": \"pickle\",\n\"scope\": \"SCENARIO:SCOPE\"\n}\n},\n\"TASK\": {\n\"default\": {\n\"function\": null,\n\"inputs\": [],\n\"outputs\": [],\n\"skippable\": \"False:bool\"\n}\n},\n\"PIPELINE\": {\n\"default\": {\n\"tasks\": []\n}\n},\n\"SCENARIO\": {\n\"default\": {\n\"comparators\": {},\n\"pipelines\": [],\n\"frequency\": null\n}\n}\n}",
-"creation_date": "2023-08-14T22:49:03.521936"
+"creation_date": "2023-09-06T10:51:00.191585"
 }

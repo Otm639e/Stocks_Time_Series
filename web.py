@@ -249,7 +249,6 @@ tp.run(
     rest,
     gui,
     title="Stock Forecasting",
-    host='0.0.0.0',
     port=os.environ.get('PORT', '5000'),
     dark_mode=True,
     ) 
